@@ -1,9 +1,12 @@
 const GROUP_ORDER = ["Public", "News", "Networks"];
 
-function uploadsUrl(channelId) {
+function uploadsUrl(channelId, autoplay) {
   // Channel uploads playlist (UC... -> UU...). A playlist embed auto-advances
   // through the channel's uploads, so it keeps playing without further clicks.
-  return "https://www.youtube.com/embed/videoseries?list=UU" + channelId.slice(2);
+  // autoplay=1 is only set on a user-initiated pick: browsers require a user
+  // gesture to start playback with sound, which a chip click satisfies.
+  const base = "https://www.youtube.com/embed/videoseries?list=UU" + channelId.slice(2);
+  return autoplay ? base + "&autoplay=1" : base;
 }
 function liveLink(channelId) {
   // Opens the channel's current live broadcast on YouTube (or its "not live" page).
@@ -23,8 +26,8 @@ function isValidChannel(channel) {
     && channel.youtubeChannelId.startsWith("UC");
 }
 
-function play(channel, chipEl) {
-  player.src = uploadsUrl(channel.youtubeChannelId);
+function play(channel, chipEl, autoplay) {
+  player.src = uploadsUrl(channel.youtubeChannelId, autoplay);
   npMode.textContent = "⏭ Latest";
   npName.textContent = channel.name;
   if (selectedChip) selectedChip.classList.remove("selected");
@@ -50,7 +53,7 @@ function makeChip(channel) {
   latestBtn.className = "latest";
   latestBtn.textContent = "⏭ Latest";
   latestBtn.setAttribute("aria-label", "Play " + channel.name + " latest uploads");
-  latestBtn.addEventListener("click", () => play(channel, chip));
+  latestBtn.addEventListener("click", () => play(channel, chip, true));
   btns.appendChild(latestBtn);
 
   // Channels that run live streams get a link that opens the live on YouTube

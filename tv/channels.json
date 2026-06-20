@@ -46,13 +46,13 @@
       "note": "FNN Prime Online; runs 24/7 live news"
     },
     {
-      "name": "テレ東BIZ ダイジェスト (TV Tokyo)",
+      "name": "テレ東公式 TV TOKYO",
       "network": "TV Tokyo",
-      "group": "News",
-      "youtubeChannelId": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+      "group": "Networks",
+      "youtubeChannelId": "UCrDj5t8Q9ZFSGft7a3PWl9g",
       "hasLive": false,
-      "homepage": "https://txbiz.tv-tokyo.co.jp/",
-      "note": "TV Tokyo business/economic news digest; upload-focused"
+      "homepage": "https://www.tv-tokyo.co.jp/",
+      "note": "Main official TV TOKYO channel (variety, anime, news); latest uploads"
     },
     {
       "name": "ウェザーニュース / Weathernews",
