@@ -37,6 +37,12 @@
     } else { head.appendChild(initialsIcon(ch.name)); }
     const nm = el("epg-colname"); nm.textContent = ch.name; head.appendChild(nm);
     const gn = el("epg-colgenre"); gn.textContent = ch.group || ""; head.appendChild(gn);
+    // The whole channel header is a tune target (plays what's live now).
+    head.setAttribute("role", "button"); head.tabIndex = 0; head.title = "Tune to " + ch.name;
+    head.addEventListener("click", () => app.tune(id, true));
+    head.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); app.tune(id, true); } });
+    head.addEventListener("mouseenter", () => app.updateInfo(id));
+    head.addEventListener("mouseleave", () => app.updateInfo(app.getActive()));
     return head;
   }
   function initialsIcon(name) {
@@ -99,7 +105,7 @@
           const bottom = Math.min(BOARD, (p.end - windowStart) * PXS);
           b.style.top = top + "px"; b.style.height = Math.max(MIN_BLOCK, bottom - top) + "px";
           const tt = el("epg-progtitle"); tt.textContent = p.title; b.appendChild(tt);
-          b.addEventListener("click", () => app.tune(id));
+          b.addEventListener("click", () => app.tune(id, true));
           b.addEventListener("mouseenter", () => app.updateInfo(id));
           b.addEventListener("mouseleave", () => app.updateInfo(app.getActive()));
           track.appendChild(b);
