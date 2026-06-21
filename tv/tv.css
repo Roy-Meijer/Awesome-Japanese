@@ -162,9 +162,9 @@ body {
   .info-title { font-size: .82rem; margin: 5px 0 8px; }
   .info-meta { font-size: .72rem; }
   .info-next { font-size: .7rem; margin-top: 8px; padding-top: 8px; }
-  .info-learn { padding-top: 10px; }
-  .info-learn-h { font-size: .64rem; }
-  .info-learn a { font-size: .8rem; }
+  .info-learn { padding-top: 7px; }
+  .info-learn-h { display: none; }                  /* compact: just the link on mobile */
+  .info-learn a { font-size: .78rem; }
   .share-btn { padding: 5px 11px; font-size: .74rem; }
   .statusbar { justify-content: flex-end; }
   .sb-left { display: none; }                       /* drop the jumbled left side */
