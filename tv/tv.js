@@ -69,7 +69,30 @@ function startChannel(channel, autoplay) {
   else ytPlayer.cuePlaylist(opts);
 }
 
-function onPlayerStateChange() { /* filled in Task 3 */ }
+let saveTimer = null;
+
+function saveCurrent() {
+  if (!activeChannelId || !ytReady) return;
+  try {
+    const vd = ytPlayer.getVideoData();
+    const t = ytPlayer.getCurrentTime();
+    if (vd && vd.video_id && t > 0) window.Resume.save(activeChannelId, vd.video_id, t);
+  } catch (e) { /* ignore */ }
+}
+
+function onPlayerStateChange(e) {
+  if (e.data === YT.PlayerState.PLAYING) {
+    if (!saveTimer) saveTimer = setInterval(saveCurrent, 5000);
+  } else {
+    if (saveTimer) { clearInterval(saveTimer); saveTimer = null; }
+    if (e.data === YT.PlayerState.PAUSED || e.data === YT.PlayerState.ENDED) saveCurrent();
+  }
+}
+
+document.addEventListener("visibilitychange", function () {
+  if (document.visibilityState === "hidden") saveCurrent();
+});
+window.addEventListener("pagehide", saveCurrent);
 
 function maybeInit() {
   if (!ytReady || !channelsReady || initDone || !defaultPick) return;
