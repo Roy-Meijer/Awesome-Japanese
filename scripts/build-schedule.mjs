@@ -1,5 +1,4 @@
 import { parseDuration } from "./duration.mjs";
-import { spawn } from "node:child_process";
 
 // Pure: fetched per-channel data -> schedule.json object.
 export function buildSchedule(channelsData, epoch, generatedAt) {
@@ -87,32 +86,12 @@ export function keepVideo(durationSeconds, orientation) {
   return durationSeconds > SHORTS_FALLBACK_MAX;
 }
 
-// Classify video orientation with yt-dlp (works from datacenter/CI IPs where
-// scraping is bot-blocked). Returns { id: "vertical"|"landscape" }; ids yt-dlp
-// can't extract are simply absent (callers treat absent as "unknown").
-function ytDlpOrientations(videoIds) {
-  return new Promise((resolve) => {
-    if (!videoIds.length) return resolve({});
-    const args = ["--skip-download", "--no-warnings", "--ignore-errors",
-      "--print", "%(id)s %(width)s %(height)s", "--", ...videoIds];
-    let p;
-    try { p = spawn("yt-dlp", args); }
-    catch (e) { return resolve({}); } // yt-dlp missing -> all unknown
-    let out = "";
-    p.stdout.on("data", (d) => (out += d));
-    p.on("error", () => resolve({}));
-    p.on("close", () => {
-      const map = {};
-      for (const line of out.split("\n")) {
-        const [id, w, h] = line.trim().split(/\s+/);
-        if (id && /^\d+$/.test(w) && /^\d+$/.test(h)) {
-          map[id] = Number(h) > Number(w) ? "vertical" : "landscape";
-        }
-      }
-      resolve(map);
-    });
-  });
-}
+// NOTE on Shorts: accurate aspect-ratio detection requires the watch page /
+// InnerTube / yt-dlp, all of which YouTube bot-blocks from datacenter (CI) IPs.
+// So orientation is left unknown in CI and keepVideo() falls back to a duration
+// floor (drop <= 60s), which removes the great majority of Shorts. If a
+// residential-IP orientation source is ever available, pass it as the second
+// keepVideo() arg to get exact filtering.
 
 async function main() {
   const key = process.env.YOUTUBE_API_KEY;
@@ -131,19 +110,12 @@ async function main() {
     raw.push({ channelId: ch.channelId, name: ch.name, videos });
   }
 
-  // 2) Classify orientation for all short-enough candidates in one yt-dlp pass.
-  const candidates = raw.flatMap((ch) => ch.videos)
-    .filter((v) => { const s = parseDuration(v.isoDuration); return s > 0 && s <= SHORTS_DURATION_MAX; })
-    .map((v) => v.videoId);
-  const orient = await ytDlpOrientations([...new Set(candidates)]);
-  const verticalCount = Object.values(orient).filter((o) => o === "vertical").length;
-  console.log(`Orientation: ${Object.keys(orient).length}/${candidates.length} classified, ${verticalCount} vertical`);
-
-  // 3) Drop Shorts, keep the rest.
+  // 2) Drop Shorts. Orientation is unavailable in CI (see note above), so
+  // keepVideo() applies its duration-floor fallback.
   const channelsData = raw.map((ch) => ({
     channelId: ch.channelId,
     name: ch.name,
-    videos: ch.videos.filter((v) => keepVideo(parseDuration(v.isoDuration), orient[v.videoId])),
+    videos: ch.videos.filter((v) => keepVideo(parseDuration(v.isoDuration), undefined)),
   }));
 
   const schedule = buildSchedule(channelsData, EPOCH, Math.floor(Date.now() / 1000));
