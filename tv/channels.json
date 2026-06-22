@@ -1,7 +1,7 @@
 {
   "channels": [
     {
-      "name": "NHK (Japanese)",
+      "name": "NHK",
       "network": "NHK",
       "group": "National",
       "youtubeChannelId": "UCip8ve30-AoX2y2OtAAmqFA",
@@ -10,7 +10,7 @@
       "note": "Official Japanese-language NHK channel; upload-only on YouTube (main broadcast not live due to rights)"
     },
     {
-      "name": "日テレ公式チャンネル",
+      "name": "日テレ",
       "network": "Nippon TV",
       "group": "National",
       "youtubeChannelId": "UCkLqBWFde2ZJZfqojgpDqyA",
@@ -19,7 +19,7 @@
       "note": "Main official Nippon TV channel; program clips and uploads"
     },
     {
-      "name": "日テレNEWS (Nippon TV)",
+      "name": "日テレNEWS",
       "network": "Nippon TV",
       "group": "National",
       "youtubeChannelId": "UCuTAXTexrhetbOe3zgskJBQ",
@@ -28,7 +28,7 @@
       "note": "Nippon News Network; runs 24/7 live news"
     },
     {
-      "name": "TBS公式 YouTuboo",
+      "name": "TBS",
       "network": "TBS",
       "group": "National",
       "youtubeChannelId": "UCxpIo6FFB7gMQz2Fy2X8XdQ",
@@ -37,7 +37,7 @@
       "note": "Main official TBS channel; drama/variety promos and uploads"
     },
     {
-      "name": "TBS NEWS DIG (TBS)",
+      "name": "TBS NEWS DIG",
       "network": "TBS",
       "group": "National",
       "youtubeChannelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
@@ -46,16 +46,19 @@
       "note": "TBS NEWS DIG Powered by JNN; runs 24/7 live news"
     },
     {
-      "name": "フジテレビ公式",
+      "name": "フジテレビ",
       "network": "Fuji TV",
       "group": "National",
       "youtubeChannelId": "UC7_mFzmj89tqAqgpl5695QQ",
       "hasLive": false,
       "homepage": "https://www.fujitv.co.jp/",
-      "note": "Main official Fuji TV channel; program clips and uploads"
+      "note": "Main official Fuji TV channel; program clips and uploads",
+      "extraChannelIds": [
+        "UCMbyctUUzWY8oRtXPKe6l5g"
+      ]
     },
     {
-      "name": "FNNプライムオンライン (Fuji TV)",
+      "name": "FNNプライムオンライン",
       "network": "Fuji TV",
       "group": "National",
       "youtubeChannelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
@@ -64,7 +67,7 @@
       "note": "FNN Prime Online; runs 24/7 live news"
     },
     {
-      "name": "tvasahi (テレビ朝日)",
+      "name": "テレビ朝日",
       "network": "TV Asahi",
       "group": "National",
       "youtubeChannelId": "UCrEU0b3lpZyrFh7VImwWkxA",
@@ -73,7 +76,7 @@
       "note": "Main official TV Asahi channel; program clips and uploads"
     },
     {
-      "name": "ANN News (TV Asahi)",
+      "name": "ANN News",
       "network": "TV Asahi",
       "group": "National",
       "youtubeChannelId": "UCGCZAYq5Xxojl_tSXcVJhiQ",
@@ -82,7 +85,7 @@
       "note": "24/7 live news stream (ANNnewsCH)"
     },
     {
-      "name": "テレ東公式 TV TOKYO",
+      "name": "テレビ東京",
       "network": "TV Tokyo",
       "group": "National",
       "youtubeChannelId": "UCrDj5t8Q9ZFSGft7a3PWl9g",
@@ -91,7 +94,7 @@
       "note": "Main official TV TOKYO channel (variety, anime, news); latest uploads"
     },
     {
-      "name": "ウェザーニュース / Weathernews",
+      "name": "ウェザーニュース",
       "network": "Weathernews",
       "group": "National",
       "youtubeChannelId": "UCNsidkYpIAQ4QaufptQBPHQ",
@@ -100,7 +103,7 @@
       "note": "Weathernews LiVE; 24/7 live weather and news"
     },
     {
-      "name": "全国無料テレビ BS11",
+      "name": "BS11",
       "network": "BS11",
       "group": "BS / Satellite",
       "youtubeChannelId": "UC793WyAnqu2VU5m9mplwfpQ",
@@ -109,7 +112,7 @@
       "note": "Official BS11 channel; program clips and uploads"
     },
     {
-      "name": "BS-TBS公式チャンネル",
+      "name": "BS-TBS",
       "network": "BS-TBS",
       "group": "BS / Satellite",
       "youtubeChannelId": "UChoziCRbOWoPlliSL8h6QTA",
@@ -118,7 +121,7 @@
       "note": "Official BS-TBS channel; program clips and uploads"
     },
     {
-      "name": "BS Fuji Official Channel",
+      "name": "BSフジ",
       "network": "BS Fuji",
       "group": "BS / Satellite",
       "youtubeChannelId": "UCUpu3NS6cQMSzLlCHcVYynA",
@@ -127,7 +130,7 @@
       "note": "Official BS Fuji channel; uploads"
     },
     {
-      "name": "BSAsahi (BS朝日)",
+      "name": "BS朝日",
       "network": "BS Asahi",
       "group": "BS / Satellite",
       "youtubeChannelId": "UCYMua3k4CTKbCJXUNwj89wg",
@@ -145,7 +148,7 @@
       "note": "Official BS TV Tokyo channel (1.6M subs); uploads"
     },
     {
-      "name": "BS日テレ公式チャンネル",
+      "name": "BS日テレ",
       "network": "BS Nippon TV",
       "group": "BS / Satellite",
       "youtubeChannelId": "UC9wH9xklRekMi6oOS_spMWA",
@@ -154,7 +157,7 @@
       "note": "Official BS Nippon TV channel; uploads"
     },
     {
-      "name": "WOWOW official",
+      "name": "WOWOW",
       "network": "WOWOW",
       "group": "BS / Satellite",
       "youtubeChannelId": "UCZfWmiGEbwWNPMe2nr3WdDg",
@@ -163,52 +166,67 @@
       "note": "Official WOWOW channel; uploads"
     },
     {
-      "name": "HBC 公式YouTube",
+      "name": "HBC 北海道放送",
       "network": "HBC",
       "group": "Hokkaido",
       "youtubeChannelId": "UC9YtvuF-DrWVieSt4OqoY3A",
       "hasLive": false,
       "homepage": "https://www.hbc.co.jp/",
-      "note": "Official HBC (Hokkaido Broadcasting, JNN) channel; uploads"
+      "note": "Official HBC (Hokkaido Broadcasting, JNN) channel; uploads",
+      "extraChannelIds": [
+        "UCCTpf5c_9HDo_OSu3aX8uFQ"
+      ]
     },
     {
-      "name": "STV札幌テレビ放送 公式",
+      "name": "STV 札幌テレビ",
       "network": "STV",
       "group": "Hokkaido",
       "youtubeChannelId": "UCGrZAL2OKyKHj5flMIVU72A",
       "hasLive": false,
       "homepage": "https://www.stv.jp/",
-      "note": "Official STV (Sapporo Television, NNN) channel; uploads"
+      "note": "Official STV (Sapporo Television, NNN) channel; uploads",
+      "extraChannelIds": [
+        "UCOZv-6MiXqJdLpmYtR431Ow"
+      ]
     },
     {
-      "name": "HTB北海道テレビ",
+      "name": "HTB 北海道テレビ",
       "network": "HTB",
       "group": "Hokkaido",
       "youtubeChannelId": "UCuY1i-Tic2G2xmox2_0h-Fw",
       "hasLive": false,
       "homepage": "https://www.htb.co.jp/",
-      "note": "Official HTB (Hokkaido Television, ANN) channel; uploads"
+      "note": "Official HTB (Hokkaido Television, ANN) channel; uploads",
+      "extraChannelIds": [
+        "UCSWOnDD1KIriGmyQ7SgNA4A"
+      ]
     },
     {
-      "name": "UHB北海道文化放送 公式",
+      "name": "UHB 北海道文化放送",
       "network": "UHB",
       "group": "Hokkaido",
       "youtubeChannelId": "UCBJbV6hW2sfcA2ugwKFBmxw",
       "hasLive": false,
       "homepage": "https://uhb.jp/",
-      "note": "Official UHB (Hokkaido Cultural Broadcasting, FNN) channel; uploads"
+      "note": "Official UHB (Hokkaido Cultural Broadcasting, FNN) channel; uploads",
+      "extraChannelIds": [
+        "UCpQs_warGhUzJhBdwLfF34g"
+      ]
     },
     {
-      "name": "TVh テレビ北海道 TV HOKKAIDO",
+      "name": "TVh テレビ北海道",
       "network": "TVh",
       "group": "Hokkaido",
       "youtubeChannelId": "UCKFJS8Mrik1Uhzu_Hfnt91w",
       "hasLive": false,
       "homepage": "https://www.tv-hokkaido.co.jp/",
-      "note": "Official TVh (TV Hokkaido, TXN) channel; uploads"
+      "note": "Official TVh (TV Hokkaido, TXN) channel; uploads",
+      "extraChannelIds": [
+        "UC0UE9tQA9KrMMllMIdz2G3w"
+      ]
     },
     {
-      "name": "RAB青森放送",
+      "name": "RAB 青森放送",
       "network": "RAB 青森放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCk_jA9Y8pb50Ab2EzV_KhLw",
@@ -217,7 +235,7 @@
       "note": "Official RAB Aomori Broadcasting (NNN) channel; uploads"
     },
     {
-      "name": "ATV青森テレビ 公式チャンネル",
+      "name": "ATV 青森テレビ",
       "network": "ATV 青森テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCdNYphHZdRYjpys_gwofUNQ",
@@ -226,16 +244,19 @@
       "note": "Official ATV Aomori Television (JNN) channel; uploads"
     },
     {
-      "name": "ABA青森朝日放送",
+      "name": "ABA 青森朝日放送",
       "network": "ABA 青森朝日放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCE5ajTJVTrsmxZJ-V3y8CLA",
       "hasLive": false,
       "homepage": "https://www.aba-net.com/",
-      "note": "Official ABA Aomori Asahi Broadcasting (ANN) channel; uploads"
+      "note": "Official ABA Aomori Asahi Broadcasting (ANN) channel; uploads",
+      "extraChannelIds": [
+        "UCSmgh6ZHdSIoJg0irxaUpEw"
+      ]
     },
     {
-      "name": "IBC岩手放送 6BOX",
+      "name": "IBC 岩手放送",
       "network": "IBC 岩手放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCMbq0m2vILQTbc0VhOcVWaQ",
@@ -244,16 +265,19 @@
       "note": "Official IBC Iwate Broadcasting (JNN) channel; uploads"
     },
     {
-      "name": "テレビ岩手公式チャンネル",
+      "name": "テレビ岩手",
       "network": "テレビ岩手",
       "group": "Tohoku",
       "youtubeChannelId": "UCsMldMn5mMamhvvyETnYHsg",
       "hasLive": false,
       "homepage": "https://www.tvi.jp/",
-      "note": "Official Television Iwate (NNN) channel; uploads"
+      "note": "Official Television Iwate (NNN) channel; uploads",
+      "extraChannelIds": [
+        "UC7qQJi_WE9yNhA48kP6TT0Q"
+      ]
     },
     {
-      "name": "menkoichannel",
+      "name": "めんこいテレビ",
       "network": "岩手めんこいテレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCw14eNQAUDqCg-fX3Uvd07w",
@@ -262,7 +286,7 @@
       "note": "Official Iwate Menkoi Television (FNN) channel; uploads"
     },
     {
-      "name": "IAT岩手朝日テレビ",
+      "name": "IAT 岩手朝日テレビ",
       "network": "岩手朝日テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCPPyaDqgxNlbiyOkq2FzMOQ",
@@ -271,7 +295,7 @@
       "note": "Official Iwate Asahi Television (ANN) channel; uploads"
     },
     {
-      "name": "tbc東北放送 公式YouTube",
+      "name": "tbc 東北放送",
       "network": "TBC 東北放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCFUbielypfKRLADGekw0TnA",
@@ -280,25 +304,31 @@
       "note": "Official Tohoku Broadcasting (JNN) channel; uploads"
     },
     {
-      "name": "ミヤテレ【公式】チャンネル",
+      "name": "ミヤテレ",
       "network": "ミヤギテレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCKYimk34K4xqApVYTKg6sow",
       "hasLive": false,
       "homepage": "https://www.mmt-tv.co.jp/",
-      "note": "Official Miyagi Television (NNN) channel; uploads"
+      "note": "Official Miyagi Television (NNN) channel; uploads",
+      "extraChannelIds": [
+        "UCp0vHbq1su20AqZoND_LH_Q"
+      ]
     },
     {
-      "name": "仙台放送公式チャンネル",
+      "name": "仙台放送",
       "network": "仙台放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCG67x_ryekOJGsffyEbuRJw",
       "hasLive": false,
       "homepage": "https://www.ox-tv.co.jp/",
-      "note": "Official Sendai Television (FNN) channel; uploads"
+      "note": "Official Sendai Television (FNN) channel; uploads",
+      "extraChannelIds": [
+        "UClElfQ7F1QndkPEFuqrDCLQ"
+      ]
     },
     {
-      "name": "khb東日本放送",
+      "name": "khb 東日本放送",
       "network": "KHB 東日本放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCkW_baVbq6aGPWeYY4hOPCA",
@@ -307,7 +337,7 @@
       "note": "Official Higashi-Nippon Broadcasting (ANN) channel; uploads"
     },
     {
-      "name": "ABS秋田放送",
+      "name": "ABS 秋田放送",
       "network": "ABS 秋田放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCVRs8dYm9OH-_g4V84BfbQw",
@@ -316,16 +346,19 @@
       "note": "Official Akita Broadcasting System (NNN) channel; uploads"
     },
     {
-      "name": "AKT秋田テレビ（公式）",
+      "name": "AKT 秋田テレビ",
       "network": "AKT 秋田テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UC7UzAjbjzvekhio8uEJXCpw",
       "hasLive": false,
       "homepage": "https://www.akt.co.jp/",
-      "note": "Official Akita Television (FNN) channel; uploads"
+      "note": "Official Akita Television (FNN) channel; uploads",
+      "extraChannelIds": [
+        "UCRTTHlDJMiCrnZOVelyAkuQ"
+      ]
     },
     {
-      "name": "AAB秋田朝日放送",
+      "name": "AAB 秋田朝日放送",
       "network": "AAB 秋田朝日放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCEobbi8fWt_DibQzOImnKqQ",
@@ -334,25 +367,31 @@
       "note": "Official Akita Asahi Broadcasting (ANN) channel; uploads"
     },
     {
-      "name": "YBC山形放送公式チャンネル",
+      "name": "YBC 山形放送",
       "network": "YBC 山形放送",
       "group": "Tohoku",
       "youtubeChannelId": "UCq4EHq2s9H8hBPXZVOi9alw",
       "hasLive": false,
       "homepage": "https://www.ybc.co.jp/",
-      "note": "Official YBC Yamagata Broadcasting (NNN) channel; uploads"
+      "note": "Official YBC Yamagata Broadcasting (NNN) channel; uploads",
+      "extraChannelIds": [
+        "UCPUkc0dqq_urdhaCmeq2HCg"
+      ]
     },
     {
-      "name": "YTS山形テレビ",
+      "name": "YTS 山形テレビ",
       "network": "YTS 山形テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCayCFjTKn1SsljcNvzYlDRQ",
       "hasLive": false,
       "homepage": "https://www.yts.co.jp/",
-      "note": "Official YTS Yamagata Television (ANN) channel; uploads"
+      "note": "Official YTS Yamagata Television (ANN) channel; uploads",
+      "extraChannelIds": [
+        "UCZAFlcRtFS7tJdWqFxxIz2Q"
+      ]
     },
     {
-      "name": "さくらんぼテレビ公式チャンネル",
+      "name": "さくらんぼテレビ",
       "network": "さくらんぼテレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCM2MyjD4BtXOcTcHSDKPNjg",
@@ -361,7 +400,7 @@
       "note": "Official Sakuranbo TV (SAY, FNN) channel; uploads"
     },
     {
-      "name": "tuy6ch",
+      "name": "TUY テレビユー山形",
       "network": "テレビユー山形",
       "group": "Tohoku",
       "youtubeChannelId": "UCTWatTAOnFVB0vwIetZCTHw",
@@ -370,31 +409,49 @@
       "note": "Official TUY Television U Yamagata (JNN) channel; uploads"
     },
     {
-      "name": "中テレ公式チャンネル",
+      "name": "福島中央テレビ",
       "network": "福島中央テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UCwYvNGb19z9A6gpisi0Jv4A",
       "hasLive": false,
       "homepage": "https://www.fct.co.jp/",
-      "note": "Official FCT Fukushima Chuo Television (NNN) channel; uploads"
+      "note": "Official FCT Fukushima Chuo Television (NNN) channel; uploads",
+      "extraChannelIds": [
+        "UC8Y0ZErdlAnA9uW7ZeRdreQ"
+      ]
     },
     {
-      "name": "福テレ公式チャンネル",
+      "name": "福島テレビ",
       "network": "福島テレビ",
       "group": "Tohoku",
       "youtubeChannelId": "UC9_ZCtgOk8dPC6boqZMNqbw",
       "hasLive": false,
       "homepage": "https://www.fukushima-tv.co.jp/",
-      "note": "Official FTV Fukushima Television (FNN) channel; uploads"
+      "note": "Official FTV Fukushima Television (FNN) channel; uploads",
+      "extraChannelIds": [
+        "UC8_eP66-QjHHM_pTXA9UuDw"
+      ]
     },
     {
-      "name": "【福島放送公式】 ときまるTV",
+      "name": "KFB 福島放送",
       "network": "KFB 福島放送",
       "group": "Tohoku",
       "youtubeChannelId": "UC32pF1BZLteNqIaXUVs7Slg",
       "hasLive": false,
       "homepage": "https://www.kfb.co.jp/",
-      "note": "Official KFB Fukushima Broadcasting (ANN) channel; uploads"
+      "note": "Official KFB Fukushima Broadcasting (ANN) channel; uploads",
+      "extraChannelIds": [
+        "UCF3imSG-M8LidiPxBbEhreQ"
+      ]
+    },
+    {
+      "name": "TUF テレビユー福島",
+      "network": "TUF テレビユー福島",
+      "group": "Tohoku",
+      "youtubeChannelId": "UCsci9tL9g8QPOvUwjJeDAgA",
+      "hasLive": false,
+      "homepage": "https://www.tuf.co.jp/",
+      "note": "Fukushima JNN affiliate; official channel; uploads"
     },
     {
       "name": "TOKYO MX",
@@ -403,25 +460,34 @@
       "youtubeChannelId": "UC4dQUfQeA-Jy2T_C-Jdf5rw",
       "hasLive": false,
       "homepage": "https://s.mxtv.jp/",
-      "note": "Primary official TOKYO MX (independent) channel; uploads"
+      "note": "Primary official TOKYO MX (independent) channel; uploads",
+      "extraChannelIds": [
+        "UCJf85jSgFayOSsZfJ051ZKw"
+      ]
     },
     {
-      "name": "テレビ神奈川 tvk3ch",
+      "name": "tvk テレビ神奈川",
       "network": "tvk テレビ神奈川",
       "group": "Kanto",
       "youtubeChannelId": "UCtDEkfJlNHq_ONjQnsX5YeA",
       "hasLive": false,
       "homepage": "https://www.tvk-yokohama.com/",
-      "note": "Official tvk (independent) channel; uploads"
+      "note": "Official tvk (independent) channel; uploads",
+      "extraChannelIds": [
+        "UCqaWGntsmpG4dzWd1sksLMQ"
+      ]
     },
     {
-      "name": "千葉テレビ放送（チバテレ）",
+      "name": "チバテレ 千葉テレビ",
       "network": "チバテレ",
       "group": "Kanto",
       "youtubeChannelId": "UCMoWRXDR4-S_R8479Ru0HjQ",
       "hasLive": false,
       "homepage": "https://www.chiba-tv.com/",
-      "note": "Official Chiba TV (independent) channel; uploads"
+      "note": "Official Chiba TV (independent) channel; uploads",
+      "extraChannelIds": [
+        "UCWSxunaMHDB-CJXCs4Cq7Uw"
+      ]
     },
     {
       "name": "テレ玉",
@@ -430,19 +496,25 @@
       "youtubeChannelId": "UCePu9zCrsJ7fRx1b2l07nMA",
       "hasLive": false,
       "homepage": "https://www.teletama.jp/",
-      "note": "Official TV Saitama (independent) channel; uploads"
+      "note": "Official TV Saitama (independent) channel; uploads",
+      "extraChannelIds": [
+        "UCW7uiApbFl_E852MGqNILDw"
+      ]
     },
     {
-      "name": "とちテレ公式チャンネル",
+      "name": "とちぎテレビ",
       "network": "とちぎテレビ",
       "group": "Kanto",
       "youtubeChannelId": "UCS1LfairJ6ccQcwURL4UlCg",
       "hasLive": false,
       "homepage": "https://www.tochigi-tv.jp/",
-      "note": "Official Tochigi TV (independent) channel; uploads"
+      "note": "Official Tochigi TV (independent) channel; uploads",
+      "extraChannelIds": [
+        "UC_SN3bimHrEFQ0qe-5X5zFw"
+      ]
     },
     {
-      "name": "群馬テレビ・ぐんテレ",
+      "name": "群馬テレビ",
       "network": "群馬テレビ",
       "group": "Kanto",
       "youtubeChannelId": "UCYwPpbi6PqfY1KJbg4H6xwA",
@@ -451,151 +523,199 @@
       "note": "Official Gunma TV (independent) channel; uploads"
     },
     {
-      "name": "中京テレビ 公式チャンネル",
+      "name": "中京テレビ",
       "network": "中京テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCztK-7QCpN1VmQblQ0eqtKQ",
       "hasLive": false,
       "homepage": "https://www.ctv.co.jp/",
-      "note": "Nagoya NNN affiliate; official channel; uploads"
+      "note": "Nagoya NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCxiRdfyH0FtFCRZTRfRsdsA"
+      ]
     },
     {
-      "name": "CBC公式チャンネル",
+      "name": "CBCテレビ",
       "network": "CBCテレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCt7RSKwEMNggPvKckcyMMZQ",
       "hasLive": false,
       "homepage": "https://hicbc.com/",
-      "note": "Nagoya JNN affiliate; official channel; uploads"
+      "note": "Nagoya JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCh5mvJtIWycou5b8smpBuxA"
+      ]
     },
     {
-      "name": "東海テレビ 公式チャンネル",
+      "name": "東海テレビ",
       "network": "東海テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCbscuGVoILLewd22RFnHpOw",
       "hasLive": false,
       "homepage": "https://www.tokai-tv.com/",
-      "note": "Nagoya FNN affiliate; official channel; uploads"
+      "note": "Nagoya FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCUQ0AtI3k10_CyLYcu4WRVA"
+      ]
     },
     {
-      "name": "メ〜テレ 公式チャンネル",
+      "name": "メ〜テレ",
       "network": "メ〜テレ",
       "group": "Chubu",
       "youtubeChannelId": "UCi0G7DKWKF84acD3jKDCquQ",
       "hasLive": false,
       "homepage": "https://www.nagoyatv.com/",
-      "note": "Nagoya ANN affiliate; official channel; uploads"
+      "note": "Nagoya ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCWnOKASPkCBEL-_O8odMvtg"
+      ]
     },
     {
-      "name": "【公式】テレビ愛知 TV Aichi",
+      "name": "テレビ愛知",
       "network": "テレビ愛知",
       "group": "Chubu",
       "youtubeChannelId": "UCaMuCIUszPKEx8966ZCVfGw",
       "hasLive": false,
       "homepage": "https://www.tv-aichi.co.jp/",
-      "note": "Aichi TXN affiliate; official channel; uploads"
+      "note": "Aichi TXN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCk6SzG4qmA7J6CI-QAtWoOg"
+      ]
     },
     {
-      "name": "SBS（静岡放送）",
+      "name": "SBS 静岡放送",
       "network": "SBS 静岡放送",
       "group": "Chubu",
       "youtubeChannelId": "UC4K74vf5snEHSjYVfytMksw",
       "hasLive": false,
       "homepage": "https://www.at-s.com/sbstv/",
-      "note": "Shizuoka JNN affiliate; official channel; uploads"
+      "note": "Shizuoka JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCOLVB0iYK8ahQ0mFn-lF-8g"
+      ]
     },
     {
-      "name": "テレしず/テレビ静岡",
+      "name": "テレビ静岡",
       "network": "テレビ静岡",
       "group": "Chubu",
       "youtubeChannelId": "UCqHczYty3emqunOz4dZFFqw",
       "hasLive": false,
       "homepage": "https://www.sut-tv.com/",
-      "note": "Shizuoka FNN affiliate; official channel; uploads"
+      "note": "Shizuoka FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCFIlFvYMWkPE6uDcjdro1UA"
+      ]
     },
     {
-      "name": "静岡朝日テレビ公式チャンネル",
+      "name": "静岡朝日テレビ",
       "network": "静岡朝日テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCo6AsxTxLogE9hIA5_B--MA",
       "hasLive": false,
       "homepage": "https://www.satv.co.jp/",
-      "note": "Shizuoka ANN affiliate; official channel; uploads"
+      "note": "Shizuoka ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCvF5vIejmf-H_XSluaBldfg"
+      ]
     },
     {
-      "name": "Daiichi-TV CHANNEL",
+      "name": "だいいちテレビ",
       "network": "だいいちテレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCy-49Fx_LNB6fEC9BGPpOcw",
       "hasLive": false,
       "homepage": "https://www.tv-sdt.co.jp/",
-      "note": "Shizuoka NNN affiliate; official channel; uploads"
+      "note": "Shizuoka NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCNGwxGuezr6aSAn9IYk4F1Q"
+      ]
     },
     {
-      "name": "BSN新潟放送公式チャンネル",
+      "name": "BSN 新潟放送",
       "network": "BSN 新潟放送",
       "group": "Chubu",
       "youtubeChannelId": "UCoAQNKxgfE32ai4mOXNXvug",
       "hasLive": false,
       "homepage": "https://www.ohbsn.com/",
-      "note": "Niigata JNN affiliate; official channel; uploads"
+      "note": "Niigata JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCSFteALQuWkhEeKqIGVc_UQ"
+      ]
     },
     {
-      "name": "TeNYテレビ新潟 公式チャンネル",
+      "name": "TeNY テレビ新潟",
       "network": "テレビ新潟",
       "group": "Chubu",
       "youtubeChannelId": "UCludpthw7DVcKbfwvrUygcA",
       "hasLive": false,
       "homepage": "https://www.teny.co.jp/",
-      "note": "Niigata NNN affiliate; official channel; uploads"
+      "note": "Niigata NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC_0tfCjB-pPNR8r9G9G1fTA"
+      ]
     },
     {
-      "name": "NST番組・イベントインフォメーション",
+      "name": "NST 新潟総合テレビ",
       "network": "NST新潟総合テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCj1Dkz1U8zRrct47G202zHA",
       "hasLive": false,
       "homepage": "https://www.nsttv.com/",
-      "note": "Niigata FNN affiliate; official channel; uploads"
+      "note": "Niigata FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC8iN-WKPu820ve-4t9NxHRw"
+      ]
     },
     {
-      "name": "UX新潟テレビ21公式チャンネル",
+      "name": "UX 新潟テレビ21",
       "network": "新潟テレビ21",
       "group": "Chubu",
       "youtubeChannelId": "UCqobPh0K_bFAWurWVQrLtKQ",
       "hasLive": false,
       "homepage": "https://www.uxtv.jp/",
-      "note": "Niigata ANN affiliate; official channel; uploads"
+      "note": "Niigata ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCmBnPrnbYpbUZ10TMIlY9YA"
+      ]
     },
     {
-      "name": "SBC信越放送",
+      "name": "SBC 信越放送",
       "network": "SBC 信越放送",
       "group": "Chubu",
       "youtubeChannelId": "UCwVMadMSXOS0AMuW_3nlyRQ",
       "hasLive": false,
       "homepage": "https://sbc21.co.jp/",
-      "note": "Nagano JNN affiliate; official channel; uploads"
+      "note": "Nagano JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCpin9fWaJ2bdeOtvx3OGjww"
+      ]
     },
     {
-      "name": "TSBテレビ信州",
+      "name": "TSB テレビ信州",
       "network": "テレビ信州",
       "group": "Chubu",
       "youtubeChannelId": "UCSE9-6eRyiQqU97_gtjvhvw",
       "hasLive": false,
       "homepage": "https://www.tsb.jp/",
-      "note": "Nagano NNN/ANN affiliate; official channel; uploads"
+      "note": "Nagano NNN/ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCQfA9KJ3eT-fLk8DPqaeS1A"
+      ]
     },
     {
-      "name": "NBS長野放送",
+      "name": "NBS 長野放送",
       "network": "長野放送",
       "group": "Chubu",
       "youtubeChannelId": "UCnAMndZmw_JmzoWy51Ld-YQ",
       "hasLive": false,
       "homepage": "https://www.nbs-tv.co.jp/",
-      "note": "Nagano FNN affiliate; official channel; uploads"
+      "note": "Nagano FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC8Cb__xPfEf6wriBekEpZqA"
+      ]
     },
     {
-      "name": "長野朝日放送",
+      "name": "abn 長野朝日放送",
       "network": "長野朝日放送",
       "group": "Chubu",
       "youtubeChannelId": "UCXS-XXaDHDyjYcFqy7UFp4g",
@@ -604,7 +724,7 @@
       "note": "Nagano ANN affiliate; official channel; uploads"
     },
     {
-      "name": "YBS山梨放送 公式チャンネル",
+      "name": "YBS 山梨放送",
       "network": "YBS 山梨放送",
       "group": "Chubu",
       "youtubeChannelId": "UCL3peEBSiAkEMDuxNkffbvw",
@@ -613,7 +733,7 @@
       "note": "Yamanashi NNN affiliate; official channel; uploads"
     },
     {
-      "name": "UTYテレビ山梨公式チャンネル",
+      "name": "UTY テレビ山梨",
       "network": "UTY テレビ山梨",
       "group": "Chubu",
       "youtubeChannelId": "UCk2oG--VyYST4SYyQkeadjA",
@@ -622,7 +742,7 @@
       "note": "Yamanashi JNN affiliate; official channel; uploads"
     },
     {
-      "name": "MRO北陸放送公式チャンネル",
+      "name": "MRO 北陸放送",
       "network": "MRO 北陸放送",
       "group": "Chubu",
       "youtubeChannelId": "UCF5te9Y8oBT7oVJNyQkhWWQ",
@@ -631,7 +751,7 @@
       "note": "Ishikawa JNN affiliate; official channel; uploads"
     },
     {
-      "name": "石川テレビ公式チャンネル",
+      "name": "石川テレビ",
       "network": "石川テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCA5dBoYZe7dgvk4cTl5PLSg",
@@ -640,16 +760,19 @@
       "note": "Ishikawa FNN affiliate; official channel; uploads"
     },
     {
-      "name": "テレビ金沢NEWS",
+      "name": "テレビ金沢",
       "network": "テレビ金沢",
       "group": "Chubu",
-      "youtubeChannelId": "UCzeRR8rMI8IkjqGx_MFlUjQ",
+      "youtubeChannelId": "UCNG-TjCrNB_LXoyQE0_Alvg",
       "hasLive": false,
       "homepage": "https://www.tvkanazawa.co.jp/",
-      "note": "Ishikawa NNN affiliate; official news channel; uploads"
+      "note": "Ishikawa NNN affiliate; official news channel; uploads",
+      "extraChannelIds": [
+        "UCzeRR8rMI8IkjqGx_MFlUjQ"
+      ]
     },
     {
-      "name": "北陸朝日放送公式チャンネル",
+      "name": "HAB 北陸朝日放送",
       "network": "北陸朝日放送",
       "group": "Chubu",
       "youtubeChannelId": "UCt6LB-BvEmDm-oWbe_TO7mw",
@@ -658,22 +781,28 @@
       "note": "Ishikawa ANN affiliate; official channel; uploads"
     },
     {
-      "name": "KNB公式チャンネル",
+      "name": "KNB 北日本放送",
       "network": "KNB 北日本放送",
       "group": "Chubu",
       "youtubeChannelId": "UCX5d3AvqSXbnvvf12BTlgIA",
       "hasLive": false,
       "homepage": "https://www.knb.ne.jp/",
-      "note": "Toyama NNN affiliate; official channel; uploads"
+      "note": "Toyama NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCTM81fmkj8bn0ILNdrKkTBA"
+      ]
     },
     {
-      "name": "富山テレビ放送 公式チャンネル",
+      "name": "BBT 富山テレビ",
       "network": "BBT 富山テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCD1MsyeoR0St_aWxydu9law",
       "hasLive": false,
       "homepage": "https://www.bbt.co.jp/",
-      "note": "Toyama FNN affiliate; official channel; uploads"
+      "note": "Toyama FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCF0D1rQCibB7XNZUz0tWEtQ"
+      ]
     },
     {
       "name": "チューリップテレビ",
@@ -685,7 +814,7 @@
       "note": "Toyama JNN affiliate; official channel; uploads"
     },
     {
-      "name": "FBC 福井放送公式チャンネル",
+      "name": "FBC 福井放送",
       "network": "FBC 福井放送",
       "group": "Chubu",
       "youtubeChannelId": "UCS713ZZe80p12889JyaiKCA",
@@ -694,7 +823,7 @@
       "note": "Fukui NNN/ANN affiliate; official channel; uploads"
     },
     {
-      "name": "福井テレビチャンネル",
+      "name": "福井テレビ",
       "network": "福井テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCgJsBXU5ofuzI3ysVtIBvIw",
@@ -703,7 +832,7 @@
       "note": "Fukui FNN affiliate; official channel; uploads"
     },
     {
-      "name": "ぎふチャン公式チャンネル",
+      "name": "ぎふチャン",
       "network": "岐阜放送",
       "group": "Chubu",
       "youtubeChannelId": "UCpNa9Nyxza1BrF0hUWTuj1Q",
@@ -712,40 +841,52 @@
       "note": "Gifu independent station; official channel; uploads"
     },
     {
-      "name": "三重テレビ放送",
+      "name": "三重テレビ",
       "network": "三重テレビ",
       "group": "Chubu",
       "youtubeChannelId": "UCbjDRsncYazJ6U2QrcOcV3A",
       "hasLive": false,
       "homepage": "https://www.mietv.com/",
-      "note": "Mie independent station; official channel; uploads"
+      "note": "Mie independent station; official channel; uploads",
+      "extraChannelIds": [
+        "UCD8zqZumr5CzsmXCMPZVA2g"
+      ]
     },
     {
-      "name": "MBS（毎日放送）",
+      "name": "MBS 毎日放送",
       "network": "MBS 毎日放送",
       "group": "Kansai",
       "youtubeChannelId": "UCXSQ8x4kEjeWNExg0tRABwQ",
       "hasLive": false,
       "homepage": "https://www.mbs.jp/",
-      "note": "Osaka JNN affiliate; main official channel; uploads"
+      "note": "Osaka JNN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UCkKJhKO73xF1pK5h9R82ZGQ"
+      ]
     },
     {
-      "name": "ABCテレビ【公式】",
+      "name": "ABCテレビ",
       "network": "ABCテレビ",
       "group": "Kansai",
       "youtubeChannelId": "UCEyOUNa0wNyx57MN-vMf_rg",
       "hasLive": false,
       "homepage": "https://www.asahi.co.jp/",
-      "note": "Osaka ANN affiliate; main brand channel; uploads"
+      "note": "Osaka ANN affiliate; main brand channel; uploads",
+      "extraChannelIds": [
+        "UCPW-5qfYGNR8XYrvESrqJKA"
+      ]
     },
     {
-      "name": "カンテレchannel",
+      "name": "カンテレ",
       "network": "関西テレビ（カンテレ）",
       "group": "Kansai",
       "youtubeChannelId": "UCQdqyXhOtKYUFPehQT8rvLA",
       "hasLive": false,
       "homepage": "https://www.ktv.jp/",
-      "note": "Osaka FNN affiliate; main brand channel; uploads"
+      "note": "Osaka FNN affiliate; main brand channel; uploads",
+      "extraChannelIds": [
+        "UCQhaZjODkIjuv38d-i5TVRw"
+      ]
     },
     {
       "name": "読売テレビ",
@@ -754,25 +895,34 @@
       "youtubeChannelId": "UCy5FXq97q7v-lBBURU7SHSQ",
       "hasLive": false,
       "homepage": "https://www.ytv.co.jp/",
-      "note": "Osaka NNN affiliate; main brand channel; uploads"
+      "note": "Osaka NNN affiliate; main brand channel; uploads",
+      "extraChannelIds": [
+        "UCv7_krlrre3GQi79d4guxHQ"
+      ]
     },
     {
-      "name": "Television Osaka テレビ大阪",
+      "name": "テレビ大阪",
       "network": "テレビ大阪",
       "group": "Kansai",
       "youtubeChannelId": "UCeOpyFGyYfhqZDqZeZmAu0A",
       "hasLive": false,
       "homepage": "https://www.tv-osaka.co.jp/",
-      "note": "Osaka TXN affiliate; official channel; uploads"
+      "note": "Osaka TXN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCd6GEK664CTEWRZda7Fu7Lg"
+      ]
     },
     {
-      "name": "KBS京都公式チャンネル",
+      "name": "KBS京都",
       "network": "KBS京都",
       "group": "Kansai",
       "youtubeChannelId": "UCfTQemZImNpSM_mnMhXjN8Q",
       "hasLive": false,
       "homepage": "https://www.kbs-kyoto.co.jp/",
-      "note": "Kyoto independent station; official channel; uploads"
+      "note": "Kyoto independent station; official channel; uploads",
+      "extraChannelIds": [
+        "UCGqbhE5MbFdwPjS4goqymrw"
+      ]
     },
     {
       "name": "サンテレビ",
@@ -781,19 +931,25 @@
       "youtubeChannelId": "UCoslznRuvXIAriI5z51-DPg",
       "hasLive": false,
       "homepage": "https://www.sun-tv.co.jp/",
-      "note": "Hyogo independent station; main official channel; uploads"
+      "note": "Hyogo independent station; main official channel; uploads",
+      "extraChannelIds": [
+        "UCtf-aWCCwZPep5woQd9lAIQ"
+      ]
     },
     {
-      "name": "奈良テレビ放送",
+      "name": "奈良テレビ",
       "network": "奈良テレビ",
       "group": "Kansai",
       "youtubeChannelId": "UC9FTt8SigjBd2bzzH3QCCVQ",
       "hasLive": false,
       "homepage": "https://www.naratv.co.jp/",
-      "note": "Nara independent station; official channel; uploads"
+      "note": "Nara independent station; official channel; uploads",
+      "extraChannelIds": [
+        "UCcd7HqsWwm2vks3oefxEGzA"
+      ]
     },
     {
-      "name": "テレビ和歌山【公式】",
+      "name": "テレビ和歌山",
       "network": "テレビ和歌山",
       "group": "Kansai",
       "youtubeChannelId": "UCRIIrdFTB6jdToXF8KkJQFQ",
@@ -811,52 +967,67 @@
       "note": "Shiga independent station; official channel; uploads"
     },
     {
-      "name": "RCCテレビ",
+      "name": "RCC 中国放送",
       "network": "RCC 中国放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCExGIeVLm6DBd_dd7AC4L-A",
       "hasLive": false,
       "homepage": "https://rcc.jp/",
-      "note": "Hiroshima JNN affiliate; official channel; uploads"
+      "note": "Hiroshima JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCATnyu9lou_Lw43gvyoh8uA"
+      ]
     },
     {
-      "name": "広テレ!公式チャンネル【広島テレビオンデマンド】",
+      "name": "広島テレビ",
       "network": "広島テレビ",
       "group": "Chugoku",
       "youtubeChannelId": "UCiG4XTTT2_mvfTPAtXGT4vQ",
       "hasLive": false,
       "homepage": "https://www.htv.jp/",
-      "note": "Hiroshima NNN affiliate; official channel; uploads"
+      "note": "Hiroshima NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCyHdFYJyt4Ihwuscuk5ALJA"
+      ]
     },
     {
-      "name": "【公式】広島ホームテレビ",
+      "name": "広島ホームテレビ",
       "network": "広島ホームテレビ",
       "group": "Chugoku",
       "youtubeChannelId": "UCg9YmSd9-AF2RRPNHsLjj2A",
       "hasLive": false,
       "homepage": "https://www.home-tv.co.jp/",
-      "note": "Hiroshima ANN affiliate; official channel; uploads"
+      "note": "Hiroshima ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCRnFGOp_mjaCYEhMzsE2iHA"
+      ]
     },
     {
-      "name": "TSSオンデマンド",
+      "name": "TSS テレビ新広島",
       "network": "テレビ新広島",
       "group": "Chugoku",
       "youtubeChannelId": "UCouV316ueTMMIlXvzKoe6kA",
       "hasLive": false,
       "homepage": "https://www.tss-tv.co.jp/",
-      "note": "Hiroshima FNN affiliate; official channel; uploads"
+      "note": "Hiroshima FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC7_jFLwpm5apDF-v-pXZb4w"
+      ]
     },
     {
-      "name": "RSK山陽放送公式チャンネル",
+      "name": "RSK 山陽放送",
       "network": "RSK 山陽放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCTUbmRxExnIYmoXRsRSEdBw",
       "hasLive": false,
       "homepage": "https://www.rsk.co.jp/",
-      "note": "Okayama/Kagawa JNN affiliate; official channel; uploads"
+      "note": "Okayama/Kagawa JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCfNJ401HCz9do6ZOGV-oTdQ"
+      ]
     },
     {
-      "name": "OHK公式チャンネル",
+      "name": "OHK 岡山放送",
       "network": "OHK 岡山放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCDveJHk8JXfw2ubmixMkogg",
@@ -865,7 +1036,7 @@
       "note": "Okayama/Kagawa FNN affiliate; official channel; uploads"
     },
     {
-      "name": "KSB瀬戸内海放送",
+      "name": "KSB 瀬戸内海放送",
       "network": "KSB 瀬戸内海放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCH9jlbggZY_mRx7Q0k49TuQ",
@@ -874,7 +1045,7 @@
       "note": "Okayama/Kagawa ANN affiliate; official channel; uploads"
     },
     {
-      "name": "TSCテレビせとうち",
+      "name": "TSC テレビせとうち",
       "network": "テレビせとうち",
       "group": "Chugoku",
       "youtubeChannelId": "UCAzaZfwgfjYVRGn4S60xM6Q",
@@ -883,7 +1054,7 @@
       "note": "Okayama/Kagawa TXN affiliate; official channel; uploads"
     },
     {
-      "name": "RNC西日本放送",
+      "name": "RNC 西日本放送",
       "network": "RNC 西日本放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCnp_CD_FN7HFD1DhR47uHDw",
@@ -892,70 +1063,91 @@
       "note": "Kagawa/Okayama NNN affiliate; official channel; uploads"
     },
     {
-      "name": "KRY山口放送公式チャンネル",
+      "name": "KRY 山口放送",
       "network": "KRY 山口放送",
       "group": "Chugoku",
       "youtubeChannelId": "UCS0p-Ii2FQm95VNwNqWpioA",
       "hasLive": false,
       "homepage": "https://kry.co.jp/",
-      "note": "Yamaguchi NNN affiliate; official channel; uploads"
+      "note": "Yamaguchi NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCUY22wZDhE6MM4E9F7139nQ"
+      ]
     },
     {
-      "name": "tysテレビ山口【公式】",
+      "name": "tys テレビ山口",
       "network": "テレビ山口",
       "group": "Chugoku",
       "youtubeChannelId": "UC9r31LvpWhWU0aJdAirOZDQ",
       "hasLive": false,
       "homepage": "https://tys.co.jp/",
-      "note": "Yamaguchi JNN affiliate; official channel; uploads"
+      "note": "Yamaguchi JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCAlnFug89RWAIueWw82nWiA"
+      ]
     },
     {
-      "name": "yabチャンネル",
+      "name": "yab 山口朝日放送",
       "network": "山口朝日放送",
       "group": "Chugoku",
       "youtubeChannelId": "UC7oQ9uMD7914CY7-ZheHrow",
       "hasLive": false,
       "homepage": "https://www.yab.co.jp/",
-      "note": "Yamaguchi ANN affiliate; official channel; uploads"
+      "note": "Yamaguchi ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCKIglIH9_xIK0feahuKhJEQ"
+      ]
     },
     {
-      "name": "1ちゃん!日本海テレビ",
+      "name": "日本海テレビ",
       "network": "日本海テレビ",
       "group": "Chugoku",
       "youtubeChannelId": "UCuE_--BXc0J7gIAtA_t4NnQ",
       "hasLive": false,
       "homepage": "https://www.nkt-tv.co.jp/",
-      "note": "Tottori/Shimane NNN affiliate; official channel; uploads"
+      "note": "Tottori/Shimane NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCDeNzPNV3K8nNkOsMFRB-sw"
+      ]
     },
     {
-      "name": "BSS山陰放送ラッテチャンネル",
+      "name": "BSS 山陰放送",
       "network": "BSS 山陰放送",
       "group": "Chugoku",
       "youtubeChannelId": "UC5f3JQdmlT_7W1l1kpwzkJQ",
       "hasLive": false,
       "homepage": "https://www.bss.jp/",
-      "note": "Tottori/Shimane JNN affiliate; official channel; uploads"
+      "note": "Tottori/Shimane JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC9J9Zv8m2nsOpiGk7FITvRw"
+      ]
     },
     {
-      "name": "TSKさんいん中央テレビ",
+      "name": "TSK 山陰中央テレビ",
       "network": "山陰中央テレビ",
       "group": "Chugoku",
       "youtubeChannelId": "UCIQEfxF2j364cyvR0f3Tmzg",
       "hasLive": false,
       "homepage": "https://tsk-tv.com/",
-      "note": "Shimane/Tottori FNN affiliate; official channel; uploads"
+      "note": "Shimane/Tottori FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC2IZ5vF-E699LBp7NNqQrpw"
+      ]
     },
     {
-      "name": "南海放送チャンネル",
+      "name": "南海放送",
       "network": "南海放送",
       "group": "Shikoku",
       "youtubeChannelId": "UCInyVB_TFV16f0yoqKa3Ftg",
       "hasLive": false,
       "homepage": "https://www.rnb.co.jp/",
-      "note": "Ehime NNN affiliate; main official channel; uploads"
+      "note": "Ehime NNN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UC-2L3iPWxVyvvnPLplpdCHA"
+      ]
     },
     {
-      "name": "あいテレビ【公式】",
+      "name": "あいテレビ",
       "network": "あいテレビ",
       "group": "Shikoku",
       "youtubeChannelId": "UCXwz4wdczQnOfL8RAUC8Ibg",
@@ -964,25 +1156,31 @@
       "note": "Ehime JNN affiliate; main official channel; uploads"
     },
     {
-      "name": "eat愛媛朝日テレビ",
+      "name": "eat 愛媛朝日テレビ",
       "network": "愛媛朝日テレビ",
       "group": "Shikoku",
       "youtubeChannelId": "UCOItj2DCO5Pj-eJKnLrbz6g",
       "hasLive": false,
       "homepage": "https://eat.jp/",
-      "note": "Ehime ANN affiliate; main official channel; uploads"
+      "note": "Ehime ANN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UCXeLyiz18tOeWeeC48nFFQQ"
+      ]
     },
     {
-      "name": "テレビ愛媛【公式】",
+      "name": "テレビ愛媛",
       "network": "テレビ愛媛",
       "group": "Shikoku",
       "youtubeChannelId": "UCSzVAEFIewUsDHFEkcdyw1w",
       "hasLive": false,
       "homepage": "https://www.ebc.co.jp/",
-      "note": "Ehime FNN affiliate; main official channel; uploads"
+      "note": "Ehime FNN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UCISf7aH1HqBtTD9jPgzIfVA"
+      ]
     },
     {
-      "name": "JRT四国放送公式チャンネル",
+      "name": "JRT 四国放送",
       "network": "四国放送",
       "group": "Shikoku",
       "youtubeChannelId": "UCuhA-fogYs0MwglwZbnL_8A",
@@ -991,7 +1189,7 @@
       "note": "Tokushima NNN affiliate; official channel; uploads"
     },
     {
-      "name": "【公式】RKC高知放送",
+      "name": "RKC 高知放送",
       "network": "高知放送",
       "group": "Shikoku",
       "youtubeChannelId": "UCI8NjCAztJIipObtK1sYueQ",
@@ -1000,7 +1198,7 @@
       "note": "Kochi NNN affiliate; official channel; uploads"
     },
     {
-      "name": "KUTVテレビ高知",
+      "name": "KUTV テレビ高知",
       "network": "テレビ高知",
       "group": "Shikoku",
       "youtubeChannelId": "UCoc4gX4ZhI8TMBpv8EJMnXQ",
@@ -1018,61 +1216,79 @@
       "note": "Kochi FNN affiliate; official channel; uploads"
     },
     {
-      "name": "RKB毎日放送公式チャンネル",
+      "name": "RKB 毎日放送",
       "network": "RKB 毎日放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCk0ErOa1N6CXes8l81lrTUg",
       "hasLive": false,
       "homepage": "https://rkb.jp/",
-      "note": "Fukuoka JNN affiliate; official channel; uploads"
+      "note": "Fukuoka JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCgrmHAblzN-QzMMgl2oNRog"
+      ]
     },
     {
-      "name": "KBC九州朝日放送",
+      "name": "KBC 九州朝日放送",
       "network": "KBC 九州朝日放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCv7j3OVeGN6ZLvr8NtgMicg",
       "hasLive": false,
       "homepage": "https://kbc.co.jp/",
-      "note": "Fukuoka ANN affiliate; official channel; uploads"
+      "note": "Fukuoka ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCS8ZQejq2CL-nZcnRWZCA5Q"
+      ]
     },
     {
-      "name": "FBS福岡放送公式チャンネル",
+      "name": "FBS 福岡放送",
       "network": "FBS 福岡放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCXXEOK4erP8E3cbszN22bEQ",
       "hasLive": false,
       "homepage": "https://www.fbs.co.jp/",
-      "note": "Fukuoka NNN affiliate; official channel; uploads"
+      "note": "Fukuoka NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC3X-tn7gpipCqOdYWCmdyJQ"
+      ]
     },
     {
-      "name": "テレビ西日本TNC",
+      "name": "TNC テレビ西日本",
       "network": "TNC テレビ西日本",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC4BhxIzw9yqZ5UDc8AxrYxA",
       "hasLive": false,
       "homepage": "https://www.tnc.co.jp/",
-      "note": "Fukuoka FNN affiliate; official channel; uploads"
+      "note": "Fukuoka FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCZ0U1AoJOKVdlejhjUU1fBg"
+      ]
     },
     {
-      "name": "テレQ7ch",
+      "name": "TVQ 九州放送",
       "network": "TVQ 九州放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCtByHAMKJuA_zjJ7m3nE1_w",
       "hasLive": false,
       "homepage": "https://www.tvq.co.jp/",
-      "note": "Fukuoka TXN affiliate; official channel; uploads"
+      "note": "Fukuoka TXN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC0O1BPRKdBRt86b9JcvxjuQ"
+      ]
     },
     {
-      "name": "サガテレビ ニュース",
+      "name": "サガテレビ",
       "network": "サガテレビ",
       "group": "Kyushu-Okinawa",
-      "youtubeChannelId": "UCmXfKCasdSTe9B49-Es9XZA",
+      "youtubeChannelId": "UCx23yzeMtcUP7d3p_Aluj0g",
       "hasLive": false,
       "homepage": "https://www.sagatv.co.jp/",
-      "note": "Saga FNN affiliate; official channel; uploads"
+      "note": "Saga FNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCmXfKCasdSTe9B49-Es9XZA"
+      ]
     },
     {
-      "name": "NBC長崎放送",
+      "name": "NBC 長崎放送",
       "network": "NBC 長崎放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCh0-nAqSYSYed_A4Qdz-0ww",
@@ -1081,7 +1297,7 @@
       "note": "Nagasaki JNN affiliate; official channel; uploads"
     },
     {
-      "name": "NIB長崎国際テレビ",
+      "name": "NIB 長崎国際テレビ",
       "network": "長崎国際テレビ",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC5cpRf7BIMj9DKebtJxR8Ig",
@@ -1090,7 +1306,7 @@
       "note": "Nagasaki NNN affiliate; official channel; uploads"
     },
     {
-      "name": "NCC長崎文化放送",
+      "name": "NCC 長崎文化放送",
       "network": "長崎文化放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCWkqxFZQSdkR_q8kGz6p9mw",
@@ -1099,7 +1315,7 @@
       "note": "Nagasaki ANN affiliate; official channel; uploads"
     },
     {
-      "name": "KTNテレビ長崎",
+      "name": "KTN テレビ長崎",
       "network": "テレビ長崎",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCFVI14YKxx42CZPRyZX_g0A",
@@ -1108,16 +1324,19 @@
       "note": "Nagasaki FNN affiliate; official channel; uploads"
     },
     {
-      "name": "RKKオフィシャルチャンネル あるぽtv 熊本放送",
+      "name": "RKK 熊本放送",
       "network": "RKK 熊本放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCwQ7n1SvtocHAaOlCKnM32A",
       "hasLive": false,
       "homepage": "https://rkk.jp/",
-      "note": "Kumamoto JNN affiliate; official channel; uploads"
+      "note": "Kumamoto JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCG1ApxYbWaC9xUxgHCWyR5Q"
+      ]
     },
     {
-      "name": "熊本県民テレビ KKT公式チャンネル",
+      "name": "KKT くまもと県民テレビ",
       "network": "くまもと県民テレビ",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCHVgNZeav4snXQs93TyNp8g",
@@ -1126,16 +1345,19 @@
       "note": "Kumamoto NNN affiliate; official channel; uploads"
     },
     {
-      "name": "KAB熊本朝日放送",
+      "name": "KAB 熊本朝日放送",
       "network": "熊本朝日放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCiiSptCGi8LtxAK7Olaj9vQ",
       "hasLive": false,
       "homepage": "https://www.kab.co.jp/",
-      "note": "Kumamoto ANN affiliate; official channel; uploads"
+      "note": "Kumamoto ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCu8GW2WcGp_9Lic2wZY_IVg"
+      ]
     },
     {
-      "name": "TKUテレビ熊本 公式",
+      "name": "TKU テレビ熊本",
       "network": "テレビ熊本",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC4wpY8jmg-n4W-UddQBr1Ag",
@@ -1144,34 +1366,43 @@
       "note": "Kumamoto FNN affiliate; official channel; uploads"
     },
     {
-      "name": "OBS大分放送",
+      "name": "OBS 大分放送",
       "network": "OBS 大分放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCcw6Wg2yTv-J81hpzRzVkQw",
       "hasLive": false,
       "homepage": "https://obs-oita.co.jp/",
-      "note": "Oita JNN affiliate; official channel; uploads"
+      "note": "Oita JNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UC04SqLqLWaH01DOka8e2yEQ"
+      ]
     },
     {
-      "name": "TOSテレビ大分",
+      "name": "TOS テレビ大分",
       "network": "テレビ大分",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC0k0UP7RA9l-X_3t8jElXQQ",
       "hasLive": false,
       "homepage": "https://www.tostv.jp/",
-      "note": "Oita FNN/NNN affiliate; official channel; uploads"
+      "note": "Oita FNN/NNN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UChx_y6aLWNkifSDUt2TVAzg"
+      ]
     },
     {
-      "name": "OABそらぽチャンネル【大分朝日放送】",
+      "name": "OAB 大分朝日放送",
       "network": "大分朝日放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCyZhsVmR-PCCVZ1jKdk8bfA",
       "hasLive": false,
       "homepage": "https://www.oab.co.jp/",
-      "note": "Oita ANN affiliate; official channel; uploads"
+      "note": "Oita ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCekmK9BsmFY_PujFeV6ryqg"
+      ]
     },
     {
-      "name": "MRT宮崎放送",
+      "name": "MRT 宮崎放送",
       "network": "MRT 宮崎放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCET0Zu3i8I0mwh2yDDy6vfQ",
@@ -1180,16 +1411,19 @@
       "note": "Miyazaki JNN affiliate; official channel; uploads"
     },
     {
-      "name": "【公式】UMKテレビ宮崎",
+      "name": "UMK テレビ宮崎",
       "network": "UMK テレビ宮崎",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC2T-H9VXDreri3ryWHFG6Pw",
       "hasLive": false,
       "homepage": "https://www.umk.co.jp/",
-      "note": "Miyazaki FNN/NNN/ANN affiliate; official channel; uploads"
+      "note": "Miyazaki FNN/NNN/ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCJlpqOQ-FZ8d-8XKemLyK8Q"
+      ]
     },
     {
-      "name": "MBC南日本放送",
+      "name": "MBC 南日本放送",
       "network": "MBC 南日本放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UC7f4czw8TuG69HuVt_uXRtQ",
@@ -1198,7 +1432,7 @@
       "note": "Kagoshima JNN affiliate; main official channel; uploads"
     },
     {
-      "name": "鹿児島ニュース - KYT鹿児島読売テレビ",
+      "name": "KYT 鹿児島読売テレビ",
       "network": "鹿児島読売テレビ",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCiyk6cY1ux2HCDycnMTksdg",
@@ -1207,7 +1441,7 @@
       "note": "Kagoshima NNN affiliate; official channel; uploads"
     },
     {
-      "name": "KKB鹿児島放送",
+      "name": "KKB 鹿児島放送",
       "network": "鹿児島放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCAhZnTMHk-TPyDzT0rt34IQ",
@@ -1225,31 +1459,166 @@
       "note": "Kagoshima FNN affiliate; official channel; uploads"
     },
     {
-      "name": "RBCチャンネル 【琉球放送】",
+      "name": "RBC 琉球放送",
       "network": "RBC 琉球放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCPxD1oyWWnpn6JBtfdYXrwA",
       "hasLive": false,
       "homepage": "https://www.rbc.co.jp/",
-      "note": "Okinawa JNN affiliate; main official channel; uploads"
+      "note": "Okinawa JNN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UCl27leged0PT2kIrRtrFYKA"
+      ]
     },
     {
-      "name": "QAB琉球朝日放送",
+      "name": "QAB 琉球朝日放送",
       "network": "琉球朝日放送",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCWzx-v_6kdTKi3oXhWOK1FA",
       "hasLive": false,
       "homepage": "https://www.qab.co.jp/",
-      "note": "Okinawa ANN affiliate; official channel; uploads"
+      "note": "Okinawa ANN affiliate; official channel; uploads",
+      "extraChannelIds": [
+        "UCmGMmudDo3qQUHA9GPOEEvA"
+      ]
     },
     {
-      "name": "【公式】OTV沖縄テレビ",
+      "name": "OTV 沖縄テレビ",
       "network": "沖縄テレビ",
       "group": "Kyushu-Okinawa",
       "youtubeChannelId": "UCw7YFM1LjNp1Mh6tM4gsHfQ",
       "hasLive": false,
       "homepage": "https://www.otv.co.jp/",
-      "note": "Okinawa FNN affiliate; main official channel; uploads"
+      "note": "Okinawa FNN affiliate; main official channel; uploads",
+      "extraChannelIds": [
+        "UCjPVLguFrd6DTfHl2McrPjw"
+      ]
+    },
+    {
+      "name": "テレビ朝日スポーツ",
+      "network": "TV Asahi",
+      "group": "Sports",
+      "youtubeChannelId": "UCI-w8qGuG4PlmZ25m9x_Q_A",
+      "hasLive": false,
+      "homepage": "https://www.tv-asahi.co.jp/",
+      "note": "TV Asahi official sports channel"
+    },
+    {
+      "name": "テレ東スポーツ",
+      "network": "TV Tokyo",
+      "group": "Sports",
+      "youtubeChannelId": "UCWdEublMqqCIicyy8fiqEyA",
+      "hasLive": false,
+      "homepage": "https://www.tv-tokyo.co.jp/",
+      "note": "TV Tokyo official sports channel"
+    },
+    {
+      "name": "テレ東卓球チャンネル",
+      "network": "TV Tokyo",
+      "group": "Sports",
+      "youtubeChannelId": "UCVG4KpQRpA99jZk2hHZT9-Q",
+      "hasLive": false,
+      "homepage": "https://www.tv-tokyo.co.jp/",
+      "note": "TV Tokyo official table-tennis channel"
+    },
+    {
+      "name": "テレ東競馬チャンネル",
+      "network": "TV Tokyo",
+      "group": "Sports",
+      "youtubeChannelId": "UC2kAqmeScpm7k3Fp-llDUIg",
+      "hasLive": false,
+      "homepage": "https://www.tv-tokyo.co.jp/",
+      "note": "TV Tokyo official horse-racing channel"
+    },
+    {
+      "name": "TBS スポーツ",
+      "network": "TBS",
+      "group": "Sports",
+      "youtubeChannelId": "UCzrG47dhJ8vZyc5uEzSIh7A",
+      "hasLive": false,
+      "homepage": "https://www.tbs.co.jp/",
+      "note": "TBS official sports channel"
+    },
+    {
+      "name": "フジテレビスポーツ すぽると!",
+      "network": "Fuji TV",
+      "group": "Sports",
+      "youtubeChannelId": "UCayz9_-aTstZRoeeZxiPf6g",
+      "hasLive": false,
+      "homepage": "https://www.fujitv.co.jp/",
+      "note": "Fuji TV official sports channel (SPORTSすぽると!)"
+    },
+    {
+      "name": "HBC 北海道放送スポーツ",
+      "network": "HBC",
+      "group": "Sports",
+      "youtubeChannelId": "UCMP81lqLuCBEAAWucKMM2jw",
+      "hasLive": false,
+      "homepage": "https://www.hbc.co.jp/",
+      "note": "HBC official sports channel"
+    },
+    {
+      "name": "HTB スポーツ",
+      "network": "HTB",
+      "group": "Sports",
+      "youtubeChannelId": "UCHJoVkQSOMgKQn9K15jCo8Q",
+      "hasLive": false,
+      "homepage": "https://www.htb.co.jp/",
+      "note": "HTB official sports channel"
+    },
+    {
+      "name": "ライオンズチャンネル（テレ玉）",
+      "network": "テレ玉",
+      "group": "Sports",
+      "youtubeChannelId": "UC-QHaGHlTBGmhwAWuR-AVMQ",
+      "hasLive": false,
+      "homepage": "https://www.teletama.jp/",
+      "note": "TV Saitama official Seibu Lions support channel"
+    },
+    {
+      "name": "カープ全力応援チャンネル TSS",
+      "network": "テレビ新広島",
+      "group": "Sports",
+      "youtubeChannelId": "UCGtlcql20e1g3iCn6LrWLug",
+      "hasLive": false,
+      "homepage": "https://www.tss-tv.co.jp/",
+      "note": "TSS official Carp support channel"
+    },
+    {
+      "name": "ドラHOTpress（東海テレビ）",
+      "network": "東海テレビ",
+      "group": "Sports",
+      "youtubeChannelId": "UC2G0uq2KGFkonnG8yWeNZ_Q",
+      "hasLive": false,
+      "homepage": "https://www.tokai-tv.com/",
+      "note": "Tokai TV official Dragons program channel"
+    },
+    {
+      "name": "ももスポ（TNC テレビ西日本）",
+      "network": "TNC テレビ西日本",
+      "group": "Sports",
+      "youtubeChannelId": "UCQ9r8J_1aX9kIt0k_eQ2vgQ",
+      "hasLive": false,
+      "homepage": "https://www.tnc.co.jp/",
+      "note": "TNC official sports channel (Hawks)"
+    },
+    {
+      "name": "RKBスポーツLIVE!",
+      "network": "RKB 毎日放送",
+      "group": "Sports",
+      "youtubeChannelId": "UCq6C5mhenGks3Wo1MD56CeQ",
+      "hasLive": false,
+      "homepage": "https://rkb.jp/",
+      "note": "RKB official sports channel"
+    },
+    {
+      "name": "鷹ちゃん RKBホークスチャンネル",
+      "network": "RKB 毎日放送",
+      "group": "Sports",
+      "youtubeChannelId": "UC2pvCnPcCn0K1u4K8ZEYCLA",
+      "hasLive": false,
+      "homepage": "https://rkb.jp/",
+      "note": "RKB official SoftBank Hawks channel"
     }
   ]
 }
